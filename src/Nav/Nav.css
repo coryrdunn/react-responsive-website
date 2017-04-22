@@ -1,0 +1,101 @@
+.constrain {
+    max-width:  1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #3f3f3f;
+    color: #fff;
+    position: fixed;
+    width: 100vw;
+}
+
+.header .constrain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .h1 {
+    margin: 0;
+    position: relative;
+    left: 10px;
+}
+
+.header .nav-toggle {
+    text-decoration: none;
+    padding: 0.5em;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    line-height: 27px;
+}
+
+.header .trigger {
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    top: 15px;
+}
+
+@media screen and (min-width:560px) {
+    .header .nav-toggle {
+        display: block;
+        position: inherit;
+    }
+
+    .trigger {
+        display: none;
+    }
+}
+
+.header .nav-toggle:hover ul {
+    display: block;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 10;
+    right: 0;
+    min-width: 50vw;
+}
+
+@media screen and (min-width:560px) {
+    .header ul {
+        display: block;
+        position: inherit;
+        background: none;
+        z-index: 0;
+        right: auto;
+        margin: 14px 0px 0px;
+        min-width: none;
+    }
+}
+
+.header li {
+    padding: 0.5em;
+    text-align: left;
+    color: #000;
+}
+
+@media screen and (min-width: 560px) {
+    .header li {
+        display: inline-block;
+        color: #fff;
+    }
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (min-width: 560px) {
+    li a {
+        color: #fff;
+    }
+}
