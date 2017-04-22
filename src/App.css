@@ -22,3 +22,36 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.mainImg {
+  padding-top: 80px;
+}
+
+.mainImg img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.mainImgText {
+  font-size: 45px;
+  color: #f00;
+  position: relative;
+  top: -165px;
+}
+
+.tileContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  background: #efefef;
+  padding: 20px;
+  height: 15px;
+}
+
+.footerText {
+  width: 100px;
+  display: inline-block;
+  float: left;
+}

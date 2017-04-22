@@ -1,20 +1,11 @@
 .tile {
-    display: flex;
-    max-width: 800px;
+    max-width: 200px;
     margin: 1em auto;
-    background: lightgrey;
-    border: 0.5em solid black;
+    background: #000;
     border-radius: 1em;
-}
-
-.tile figure {
-    flex: 1;
+    color: #fff;
 }
 
     .tile figure img {
         width: 100%;
     }
-
-.tile section {
-    flex: 3;
-}

@@ -6,7 +6,6 @@
 .header {
     background: #3f3f3f;
     color: #fff;
-    position: fixed;
     width: 100vw;
 }
 
@@ -98,4 +97,10 @@ li a {
     li a {
         color: #fff;
     }
+}
+
+.logoImg {
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
 }

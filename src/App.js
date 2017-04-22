@@ -13,9 +13,9 @@ class App extends Component {
           <div className="mainImgText">Some Text Over Image</div>
         </div>
         <div className="tileContainer">
-          <Tile title="" img="http://lorempixel.com/400/200/" />
-          <Tile title="" img="http://lorempixel.com/400/200/" />
-          <Tile title="" img="http://lorempixel.com/400/200/" />
+          <Tile title="Some Text" img="http://lorempixel.com/400/200/" />
+          <Tile title="Some Text" img="http://lorempixel.com/400/200/" />
+          <Tile title="Some Text" img="http://lorempixel.com/400/200/" />
         </div>
         <div className="contentContainer">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda excepturi, incidunt 

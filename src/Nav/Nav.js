@@ -12,7 +12,10 @@ class Nav extends React.Component {
         return (
             <header className="header">
                 <div className="constrain">
-                    <h1>Company</h1>
+                    <h1>
+                        <img className="logoImg" src="http://lorempixel.com/400/200/" alt="" />
+                        Company
+                    </h1>
                     <nav className="navigation">
                         <div className="nav-toggle">
                             <span className="trigger">&#9776;</span>
